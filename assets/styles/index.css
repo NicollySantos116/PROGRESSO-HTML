@@ -39,7 +39,7 @@ h2 {
      align-items: center;
 }
 
-.flex-item{
+.flex-item {
     width: 80px;
     height: 80px;
     background-color: rgb(197, 86, 145);
@@ -51,10 +51,18 @@ h2 {
     margin: 10px;
 }
 
-.justify-center{
+.justify-center {
     justify-content: center;   
 }
 
-.flex-end{
+.justify-flex-end {
     justify-content: flex-end;
+}
+
+.justify-between {
+justify-content: space-between;
+}
+
+.justify-space-around{
+    justify-content: space-around; 
 }
