@@ -21,7 +21,7 @@ section {
 
 h1 {
     margin-bottom: 15px;
-    color:rgba(218, 42, 144, 0.815);
+    color:rgba(190, 6, 114, 0.815);
 }
 
 h2 {
@@ -32,7 +32,7 @@ h2 {
 .flex-container {
      width: 90%;
      height: 200px;
-     background-color: rgb(216, 164, 191);
+     background-color: rgb(235, 191, 214);
      margin: 0 auto 20px;
      display: flex;
      justify-content:flex-start;
@@ -50,7 +50,11 @@ h2 {
     border-radius: 8px;
     margin: 10px;
 }
+
 .justify-center{
-    justify-content: center;
-    
+    justify-content: center;   
+}
+
+.flex-end{
+    justify-content: flex-end;
 }
