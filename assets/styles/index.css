@@ -19,6 +19,11 @@ section {
     margin-bottom: 40px;
 }
 
+h1 {
+    margin-bottom: 15px;
+    color:rgba(218, 42, 144, 0.815);
+}
+
 h2 {
     margin-bottom: 15px;
     color:rgba(184, 45, 114, 0.815);
@@ -38,10 +43,14 @@ h2 {
     width: 80px;
     height: 80px;
     background-color: rgb(197, 86, 145);
-    border: 2px solid rgba(255, 255, 255, 0.295);
+    border: 2px solid rgba(116, 11, 75, 0.897);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
     margin: 10px;
+}
+.justify-center{
+    justify-content: center;
+    
 }
