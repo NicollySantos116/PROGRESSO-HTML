@@ -10,3 +10,60 @@
     background-color: rgb(183, 136, 228);
     margin: 50px auto;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 500px;
+    gap: 20px;
+}
+
+.quadrado {
+    width: 150px;
+    height: 150px;
+}
+
+.rosa{
+    background-color: palevioletred;
+}
+
+.azul {
+    background-color: rgb(71,153,219);
+}
+
+.semaforo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    gap: 20px;
+}
+
+.vermelho {
+    background-color: rgb(223,28,28);
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+}
+
+.amarelo {
+    background-color: yellow;
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+}
+
+.verde {
+    background-color: rgb(126,192,27);
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+}
