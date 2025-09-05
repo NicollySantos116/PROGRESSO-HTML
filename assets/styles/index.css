@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(236, 127, 182);
+    background-color: rgb(241, 112, 177);
 }
 
 body {
@@ -22,7 +22,7 @@ section {
 
 h1 {
     margin-bottom: 15px;
-    color:rgba(167, 0, 97, 0.815);
+    color:rgba(158, 28, 104, 0.815);
 }
 
 h2 {
