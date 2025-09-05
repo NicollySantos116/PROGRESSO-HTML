@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(206, 137, 172);
+    background-color: rgb(236, 127, 182);
 }
 
 body {
@@ -22,7 +22,7 @@ section {
 
 h1 {
     margin-bottom: 15px;
-    color:rgba(190, 6, 114, 0.815);
+    color:rgba(167, 0, 97, 0.815);
 }
 
 h2 {
@@ -33,7 +33,7 @@ h2 {
 .flex-container {
      width: 90%;
      height: 200px;
-     background-color: rgb(235, 191, 214);
+     background-color: rgb(241, 168, 206);
      margin: 0 auto 20px;
      display: flex;
      justify-content:flex-start;
@@ -70,18 +70,18 @@ justify-content: space-between;
 
 .navegacao {
     text-decoration: none;
-    color:  palevioletred;
+    color:rgba(190, 6, 114, 0.815);
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem 1rem;
     margin: 20px;
-    border: 2px solid   palevioletred;
+    border: 2px solid rgba(190, 6, 114, 0.815);
     border-radius: 25px;
     display: inline-block;
     transition: all 0.5s ease;
 }
 
 .navegacao:hover {
-    background-color:  palevioletred;
+    background-color:rgba(173, 33, 115, 0.815);
     color: #2b2b2b;
 }
