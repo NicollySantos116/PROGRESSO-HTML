@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(224, 128, 176);
 }
 
 body {
@@ -65,4 +66,22 @@ justify-content: space-between;
 
 .justify-space-around{
     justify-content: space-around; 
+}
+
+.navegacao {
+    text-decoration: none;
+    color:  palevioletred;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 20px;
+    border: 2px solid   palevioletred;
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+.navegacao:hover {
+    background-color:  palevioletred;
+    color: #2b2b2b;
 }
