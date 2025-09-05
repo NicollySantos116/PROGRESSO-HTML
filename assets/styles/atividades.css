@@ -72,4 +72,15 @@
     border-radius: 100px;
 }
 
-.vermelho
+.vermelho:hover{
+    background-color: rgb(223,28,28);
+    transform: scale(1.2)
+}
+.amarelo:hover{
+    background-color: yellow;
+    transform: scale(1.2)
+}
+.verde:hover{
+    background-color: rgb(126,192,27);
+    transform: scale(1.2)
+}
