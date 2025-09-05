@@ -56,13 +56,15 @@
     width: 130px;
     height: 130px;
     border-radius: 100px;
+    box-shadow: 0 0 20px #ff0000;
 }
 
 .amarelo {
-    background-color: yellow;
+    background-color: rgb(199, 199, 46);
     width: 130px;
     height: 130px;
     border-radius: 100px;
+    box-shadow: 0 0 20px #c7c434;
 }
 
 .verde {
@@ -70,17 +72,17 @@
     width: 130px;
     height: 130px;
     border-radius: 100px;
+    box-shadow: 0 0 20px#459449;
 }
-
 .vermelho:hover{
     background-color: rgb(223,28,28);
     transform: scale(1.2)
 }
 .amarelo:hover{
-    background-color: yellow;
+    background-color: rgb(224, 224, 93);
     transform: scale(1.2)
 }
 .verde:hover{
-    background-color: rgb(126,192,27);
+    background-color: rgb(150, 216, 52);
     transform: scale(1.2)
 }
